@@ -1,0 +1,10 @@
+name: isolate_sample
+dependencies:
+  logging: any
+  polymer: ^1.0.0-rc.15
+  polymer_elements: 1.0.0-rc.8
+  browser: ^0.10.0
+transformers:
+- polymer:
+    entry_points:
+      - web/index.html
